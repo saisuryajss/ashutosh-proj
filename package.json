@@ -14,6 +14,9 @@
     "build":"npm run install-server && npm run install-client && npm run build-client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "18.10"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saisuryajss/ashutosh-proj.git"
