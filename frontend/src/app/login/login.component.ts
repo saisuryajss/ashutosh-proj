@@ -20,7 +20,7 @@ export class LoginComponent {
       password:data.input2
     };
     console.log(verify_data,"data")
-    this.http.post('http://localhost:3000/api',verify_data).subscribe(res=>{
+    this.http.post('https://nitkkr-complaints.onrender.com/api',verify_data).subscribe(res=>{
 
       if(Object.keys(res)[0]=='true'){
         localStorage.setItem('username',verify_data.username)

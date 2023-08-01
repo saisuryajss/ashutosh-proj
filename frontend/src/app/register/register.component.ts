@@ -13,7 +13,7 @@ export class RegisterComponent {
   register(data:any){
 
     console.log("inside register function",data)
-    this.http.post("http://localhost:3000/api/data",data).subscribe(res=>{
+    this.http.post("https://nitkkr-complaints.onrender.com/api/data",data).subscribe(res=>{
       console.log(res)
       this.router.navigate([''])
     })

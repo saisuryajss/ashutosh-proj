@@ -12,14 +12,14 @@ export class ProfileComponent {
 ngOnInit(){
   console.log("123 profile")
   console.log(localStorage.getItem('username'))
-  this.http.get("http://localhost:3000/api/profile/"+localStorage.getItem('username')).subscribe(res=>{
+  this.http.get("https://nitkkr-complaints.onrender.com/api/profile/"+localStorage.getItem('username')).subscribe(res=>{
     console.log(res,"profile information is")
     this.profile_info=res
   })
 
 }
 check(){
-  this.http.get("http://localhost:3000/api/profile/"+localStorage.getItem('username')).subscribe(res=>{
+  this.http.get("https://nitkkr-complaints.onrender.com/api/profile/"+localStorage.getItem('username')).subscribe(res=>{
     console.log(res,"profile information is")
     this.profile_info=res
   })
