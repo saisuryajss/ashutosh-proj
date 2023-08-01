@@ -1,0 +1,25 @@
+<body>
+<div class="card shadow-lg">
+  <form #registers="ngForm" (ngSubmit)="register(registers.value)" novalidate>
+    <div class="container" class="ashu">
+      <div class="d-flex justify-content-center">
+        <p>Username&nbsp;&nbsp;<input type="text" name="username" ngModel></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>Password &nbsp;&nbsp;&nbsp;<input type="text" name="password" ngModel></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>Contact No&nbsp;<input type="text" name="contact" ngModel></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>Room No&nbsp;&nbsp;&nbsp;<input type="text" name="room" ngModel></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>Hostel No&nbsp;&nbsp;&nbsp;<input type="text" name="hostel" ngModel></p>
+      </div>
+      <button  type="submit" class="d-flex justify-content-center btn btn-primary m-auto">Register</button>
+    </div>
+
+  </form>
+</div>
+</body>

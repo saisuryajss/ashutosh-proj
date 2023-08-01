@@ -1,0 +1,39 @@
+body{
+  height:100vh;
+  background-image: url('../../assets/images/1024px-Swami_vivekanand_hostel.jpeg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100vw;
+  display: flex;
+  align-items: center;
+}
+/* .centering{
+/* margin-top:30vh;
+margin-left: 20vw;
+margin-right: 20vw;
+} */
+/* .card{
+position:relative;
+height:20vh;
+border-radius: 3vh;
+} */
+
+/* img{
+  border:0.2vw solid black;
+  border-radius:100%;
+} */
+#ashu{
+  display:grid;
+  grid-template-columns: repeat(2,220px);
+  grid-gap: 3rem;
+  margin: auto;
+  width:fit-content;
+}
+.style{
+  height: 200px;
+  border-radius: 12px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:0.03em double silver;
+}

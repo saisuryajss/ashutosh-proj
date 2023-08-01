@@ -1,0 +1,15 @@
+<body>
+  <form #complaint="ngForm" (ngSubmit)="complaint_submit(complaint.value)">
+  <div class="card">
+
+    <label for="conplaint"><b><u><i>Describe your complaint:</i></u></b></label>
+
+    <textarea maxlength="10000"  id='complaint' type="text" name='complaint' placeholder="Please raise your complaint here" style="resize:none;padding-left:1em;padding-top:0.5em;height:20vh" ngModel></textarea>
+    <br>
+    <button class="btn btn-primary m-auto" type="submit">submit</button>
+
+
+
+  </div>
+</form>
+</body>

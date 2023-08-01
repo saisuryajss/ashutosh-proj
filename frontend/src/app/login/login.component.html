@@ -1,0 +1,17 @@
+<html>
+<body >
+<form #logind="ngForm"  (ngSubmit)="login_verify(logind.value)" novalidate>
+<div class="d-flex flex-row justify-content-center" >
+    <div class="cent">
+      <div class=" d-flex flex-column p-5 m-1 card">
+        <p><b>Username </b><input class="form-control" type="text"  name="input1" placeholder="username"  ngModel></p>
+        <p><b>Password&nbsp;&nbsp;</b><input class="form-control"   name="input2" type="password" placeholder="password" ngModel ></p>
+        <div class="d-flex flex-row justify-content-center mt-2"><button type="submit" >Login</button></div>
+        <a class="text-center mt-1" style="color:black;opacity:0.3" (mouseover)="signup($event)" (mouseleave)="signup_leave($event)" href="register"><u><b>register</b></u></a>
+      </div>
+    </div>
+</div>
+</form>
+<p class="text-center" id="invalid" style="display:none;color:red">Invalid Username or Password!!</p>
+</body>
+</html>

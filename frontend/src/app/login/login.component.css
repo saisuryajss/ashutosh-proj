@@ -1,0 +1,18 @@
+.cent{
+  margin-top:25vh;
+}
+.card{
+  border-radius:5vh;
+  border:0.05em double black;
+  background-color:rgba(250, 250, 250, 1);
+  opacity: 1;
+}
+body{
+  background-image:url('../../assets/images/nationalinstituteoftechnologykurukshetra.jpeg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  height:100vh;
+  width:100%;
+  position:relative
+}
+

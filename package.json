@@ -1,0 +1,27 @@
+{
+  "name": "ashutosh-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run start-backend",
+    "start-client":"npm start --prefix frontend",
+    "start-backend":"npm start --prefix backend",
+    "install-server": "npm install --prefix backend",
+    "install-client": "npm install --prefix frontend",
+    "install": "npm run install-server & npm run install-client",
+    "build-client":"npm run build --prefix frontend",
+    "build":"npm run install-server && npm run install-client && npm run build-client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisuryajss/ashutosh-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisuryajss/ashutosh-proj/issues"
+  },
+  "homepage": "https://github.com/saisuryajss/ashutosh-proj#readme"
+}

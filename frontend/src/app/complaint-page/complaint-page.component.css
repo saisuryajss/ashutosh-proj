@@ -1,0 +1,13 @@
+body{
+  background-image:url('../../assets/images/1608298173phpvp1r8K.jpeg');
+  height:100vh;
+  width:100%;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  padding:30vh;
+}
+.card{
+
+padding:2em;
+border-radius:2em;
+}

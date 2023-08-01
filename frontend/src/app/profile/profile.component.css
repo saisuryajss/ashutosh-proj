@@ -1,0 +1,23 @@
+html{
+  height:100vh;
+  width:100%;
+  margin:0px;
+  background-image:url('../../assets/images/main-qimg-08d9af19af339fb218ced5dfa79d8e57-lq.jpeg');
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.card{
+  position:absolute;
+  top:30vh;
+  bottom:30vh;
+  left:35vw;
+  right:50vw;
+  height:40vh;
+  width:30vw;
+
+
+  /* overflow:scroll; */
+
+
+}

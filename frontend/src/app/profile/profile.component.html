@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <div class="card shadow-lg ">
+        <div class="d-flex justify-content-center mb-3"  >
+          <img  style="margin-top:1vh;" src="../../assets/images/profile.jpg" height="50" width="50">
+        </div>
+        <div class="">
+          <p class="text-center mb-0" style="font-size:2vh;" *ngFor="let x of profile_info | keyvalue" ><span *ngIf="x.key!='password' && x.key!='__v' && x.key!='_id'"><b>{{x.key}}</b>: {{x.value}}</span></p>
+
+        </div>
+
+
+        </div>
+
+  </body>
+</html>
